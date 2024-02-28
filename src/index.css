@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: linear-gradient(white, #ede3aaff);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
