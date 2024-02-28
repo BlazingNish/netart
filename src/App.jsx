@@ -10,9 +10,13 @@ function App() {
         <div className="flex items-center align-middle p-0">
           <img src="/logo.png" alt="logo" className="h-40 aspect-auto" />
         </div>
-        <div className="flex justify-evenly pt-8 gap-x-8">
+        <div className="flex flex-col md:flex-row justify-evenly pt-8 gap-x-8">
           <div className="h-[1120px]">
-            <img src="/1.png" alt="trophy" className="aspect-auto h-4/5" />
+            <img
+              src="/1.png"
+              alt="trophy"
+              className="aspect-auto h-3/5 md:h-4/5"
+            />
           </div>
           <div className="flex flex-col pr-4">
             <p className="font-bold text-wrap">
@@ -83,7 +87,7 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="flex justify-around w-full h-40 bg-red-600 items-center mt-8">
+        <div className="flex justify-around px-2 w-full h-40 bg-red-600 items-center mt-8">
           <div className="flex text-white gap-3">
             <FontAwesomeIcon icon={faPhone} className="h-8 aspect-square" />
             <p>
